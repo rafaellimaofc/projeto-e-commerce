@@ -1,0 +1,67 @@
+# === AMBIENTE VIRTUAL ===
+venv/
+.env
+.env.*
+*.env
+
+
+# === BANCO DE DADOS LOCAL (SQLite) ===
+db.sqlite3
+*.sqlite3
+*.db
+
+
+# === CACHE / COMPILAÇÃO DO PYTHON ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*$py.class
+
+
+
+*/migrations/__pycache__/
+
+
+# === ARQUIVOS DE CONFIGURAÇÃO PRIVADOS ===
+secret.json
+settings_local.py
+*.pem
+*.key
+*.der
+
+
+# === STATIC E MEDIA (arquivos gerados) ===
+static/
+staticfiles/
+media/
+uploads/
+*.webp
+*.png
+*.jpg
+*.jpeg
+
+
+
+node_modules/
+package-lock.json
+
+
+# === EDITORES ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+
+# === SISTEMA OPERACIONAL ===
+.DS_Store
+Thumbs.db
+
+
+# === OUTROS ===
+*.bak
+*.swp
+*.tmp
